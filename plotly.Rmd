@@ -1,5 +1,5 @@
 ---
-title: "here are some plotly plots"
+title: "Here are some plotly plots"
 output: html_document
 date: "2025-10-26"
 ---

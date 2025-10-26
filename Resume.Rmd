@@ -2,6 +2,7 @@
 title: "Medha's Professional Experience"
 output: 
   html_document
+    
 ---
 
 This section was created to provide details regarding my professional experience for my homework assignment. To go back to the homepage, go ahead and click [this](index.html) or press Home in the navigation bar.

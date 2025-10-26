@@ -1,0 +1,49 @@
+---
+title: "Medha's Professional Experience"
+output: 
+  html_document:
+    theme: cerulean
+---
+
+This section was created to provide details regarding my professional experience for my homework assignment. To go back to the homepage, go ahead and click [this](index.html) or press Home in the navigation bar.
+
+## Education
+##### Columbia University	September 2024 ¬– May 2026
+Master of Public Health, Epidemiology 	GPA: 3.7
+Certificate in Applied Biostatistics & Data Science	
+
+##### Rutgers University – New Brunswick	September 2020 ¬– May 2024
+Bachelor of Science, Health Administration/Management	GPA: 3.7
+Bachelor of Arts, Psychology	
+
+## Experience
+##### Columbia University’s Center for Community Health	New York, NY Research Assistant	September 2025 – Present
+•	Screening participants and recruiting eligible individuals for study enrollment.
+•	Trained in collecting and recording biometric data, such as blood pressure and cholesterol measures.
+•	Utilizing REDCap for data entry and management while ensuring confidentiality.
+
+##### Columbia University Mailman School of Public Health	New York, NY Teaching Assistant, Applied Qualitative Research Methods	September 2025 – Present
+•	Holding one-on-one office hours to provide support to 14+ students.
+•	Collaborating with the professor in preparing and organizing teaching materials including discussion prompts and supplementary resources.
+
+##### CUNY School of Medicine	New York, NY Research Fellow	May 2025 – August 2025
+•	Cleaned, filtered, and analyzed CDC datasets in SAS to investigate health disparities.
+•	Authored a manuscript synthesizing key findings from the statistical analysis.
+•	Received mentorship by a specialist at Memorial Sloan Kettering Cancer Center.
+
+##### NYU Langone Health 	New York, NY  Research Intern 	January 2024 – May 2024 
+•	Organized digital and physical study data containing protected health information via Excel, ensuring data integrity and compliance.
+•	Recruited and screened participants who met eligibility criteria closely with research coordinators.
+•	Drafted documents to assist on the completion of NIH/NIA grant applications.
+
+##### Aresty Research Center	New Brunswick, NJ Research Assistant	September 2022 – December 2023
+•	Contributed to the IRB proposal process, ensuring compliance with research protocols.
+•	Conducted and transcribed participant interviews, providing qualitative insights to the study.
+•	Presented study findings at a Research Symposium, receiving positive feedback from peers and faculty.
+
+## Involvement & Interests
+##### Awards: 
+Outstanding Youth Award awarded by Embrella (2023), Dean’s list awarded by Rutgers University (2023 & 2024), Unsung Hero Award awarded by Bergen County School Boards Association (2020)	
+
+##### Certificates: 
+Citi Program ¬– Human Research - Social / Behavioral / Epidemiologic Research Investigator (2023)

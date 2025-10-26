@@ -4,12 +4,9 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-## Brief Introduction
-Welcome to my website, here I will provide easy access to details about my prior work experiences, [email](gmail.com), [Github account](https://github.com/medhatulsyani/medhatulsyani.github.io), and [Linkedin page](https://www.linkedin.com/in/medhatulsyani/). 
+## Brief Introductory Page
+Welcome to my website, here I will provide easy access to details about my prior work experiences, email, and github account. The website is for my Data Science class this semester, where I'm learning R. You can click the mail icon in the navigation bar to send me an email, and the github logo next to it to access my page. If you'd like to access my LinkedIn page, feel free to click [here](https://www.linkedin.com/in/medhatulsyani/). To access a page detailing information from my resume, click [here](resume.html) or press Resume in the navigation bar.
 
 
-
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)

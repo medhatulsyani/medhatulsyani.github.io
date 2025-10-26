@@ -1,0 +1,33 @@
+---
+title: "here are some plotly plots"
+output: html_document
+date: "2025-10-26"
+---
+
+```{r}
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+```
+
+Load the Instacart dataset and use filter to make it manageable
+```{r}
+data("instacart")
+
+instacart_df_filtered = instacart |>
+  select(days_since_prior_order, reordered, product_name)|>
+  group_by(days_since_prior_order, reordered, product_name)|>
+  count(product_name)|>
+  filter(n>400)
+
+```
+
+Make a scatter plot
+```{r}
+instacart_df_filtered |>
+  plot_ly(
+    x = ~product_name, y = ~n, color = ~reordered,
+    type = "scatter", mode = "markers", alpha = 0.5
+  )
+```
+

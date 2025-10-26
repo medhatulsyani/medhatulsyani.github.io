@@ -7,6 +7,6 @@ output:
 ---
 
 ## Brief Introductory Page
-Welcome to my website, here I will provide easy access to details about my prior work experiences, email, and github account. The website is for my Data Science class this semester, where I'm learning R. You can click the mail icon in the navigation bar to send me an email, and the github logo next to it to access my page. If you'd like to access my LinkedIn page, feel free to click [here](https://www.linkedin.com/in/medhatulsyani/). To access a page detailing information from my resume, click [here](resume.html) or press Resume in the navigation bar.
+Welcome to my website, here I will provide easy access to details about my prior work experiences, email, and github account. The website is for my Data Science class this semester, where I'm learning R. You can click the mail icon in the navigation bar to send me an email, and the github logo next to it to access my page. If you'd like to access my LinkedIn page, feel free to click [here](https://www.linkedin.com/in/medhatulsyani/). To access a page detailing information from my resume, press Resume in the navigation bar.
 
 

@@ -1,0 +1,15 @@
+---
+title: "Medha's Website (AKA Homework 4)"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+## Brief Introduction
+Welcome to my website, here I will provide easy access to details about my prior work experiences, [email](gmail.com), [Github account](https://github.com/medhatulsyani/medhatulsyani.github.io), and [Linkedin page](https://www.linkedin.com/in/medhatulsyani/). 
+
+
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)

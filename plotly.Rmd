@@ -15,8 +15,8 @@ Load the Instacart dataset and use filter to make it manageable
 data("instacart")
 
 instacart_df_filtered = instacart |>
-  select(days_since_prior_order, reordered, product_name)|>
-  group_by(days_since_prior_order, reordered, product_name)|>
+  select(days_since_prior_order, reordered, product_name, aisle)|>
+  group_by(days_since_prior_order, reordered, product_name, aisle)|>
   count(product_name)|>
   filter(n>400)
 
@@ -28,6 +28,21 @@ instacart_df_filtered |>
   plot_ly(
     x = ~product_name, y = ~n, color = ~reordered,
     type = "scatter", mode = "markers", alpha = 0.5
+  )
+```
+
+Filter to change the variables and make a box plot
+```{r}
+second_plot = instacart |>
+  select(days_since_prior_order, reordered, product_name, aisle, order_dow)|>
+  group_by(days_since_prior_order, reordered, product_name, aisle, order_dow) |>
+  count(product_name)|>
+  filter(n>100)
+
+second_plot |>
+  plot_ly(
+    x = ~product_name, y = ~order_dow, color = ~product_name,
+    type = "box", colors = "viridis"
   )
 ```
 

@@ -5,8 +5,8 @@ navbar:
   right:
     - text: "Resume"
       href: Resume.html
-    - text: "Plotly Plots"
-      href: plotly.html
+    - text: "Flexdashboard"
+      href: flex.html
     - icon: fa-envelope fa-lg
       href: mailto:<medhatulsy@gmail.com>
     - icon: fa-github fa-lg

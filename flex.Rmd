@@ -1,0 +1,75 @@
+---
+title: "Flex Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+```
+
+
+```{r}
+data("instacart")
+
+instacart_df_filtered = instacart |>
+  select(days_since_prior_order, reordered, product_name, aisle)|>
+  group_by(days_since_prior_order, reordered, product_name, aisle)|>
+  count(product_name)|>
+  filter(n>400)
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+instacart_df_filtered |>
+  plot_ly(
+    x = ~product_name, y = ~n, color = ~reordered,
+    type = "scatter", mode = "markers", alpha = 0.5
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+second_plot = instacart |>
+  select(days_since_prior_order, reordered, product_name, aisle, order_dow)|>
+  group_by(days_since_prior_order, reordered, product_name, aisle, order_dow) |>
+  count(product_name)|>
+  filter(n>100)
+
+second_plot |>
+  plot_ly(
+    x = ~product_name, y = ~order_dow, color = ~product_name,
+    type = "box", colors = "viridis"
+  )
+```
+
+### Chart C
+
+```{r}
+third_plot = instacart |>
+  select(days_since_prior_order, reordered, product_name, aisle, order_dow)|>
+  group_by(days_since_prior_order, reordered, product_name, aisle, order_dow) |>
+  count(product_name)|>
+  filter(n>100)
+
+third_plot |>
+  plot_ly(
+    x = ~product_name, y = ~reordered,
+    type = "bar"
+  )
+```
+

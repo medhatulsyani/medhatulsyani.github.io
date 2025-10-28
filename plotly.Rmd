@@ -46,3 +46,18 @@ second_plot |>
   )
 ```
 
+Make a bar chart
+```{r}
+third_plot = instacart |>
+  select(days_since_prior_order, reordered, product_name, aisle, order_dow)|>
+  group_by(days_since_prior_order, reordered, product_name, aisle, order_dow) |>
+  count(product_name)|>
+  filter(n>100)
+
+third_plot |>
+  plot_ly(
+    x = ~product_name, y = ~reordered,
+    type = "bar"
+  )
+```
+

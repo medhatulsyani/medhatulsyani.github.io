@@ -3,14 +3,14 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "Resume"
-      href: Resume.html
-    - text: "Flexdashboard"
-      href: flex.html
-    - icon: fa-envelope fa-lg
-      href: mailto:<medhatulsy@gmail.com>
-    - icon: fa-github fa-lg
-      href: http://github.com/medhatulsyani/
+  - text: "Resume"
+    href: Resume.html
+  - text: "Flexdashboard"
+    href: flex.html
+  - icon: fa-envelope fa-lg
+    href: mailto:<medhatulsy@gmail.com>
+  - icon: fa-github fa-lg
+    href: http://github.com/medhatulsyani/
 output:
   html_document:
     theme: cosmo
